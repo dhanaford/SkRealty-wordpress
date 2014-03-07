@@ -1,0 +1,93 @@
+@media screen and (max-width: 1222px) {
+	nav.default {
+		 margin-left: 65%;
+	}
+	nav a {
+		padding: 7px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	nav.default {
+		 margin-left: 55%;
+	}
+
+}
+
+@media screen and (max-width: 478px) 	{
+	h1 { 
+		font-size: 25px; 
+		padding: 1px; 
+}
+	h2 { 
+		font-size: 13px; 
+		padding: 1px; 
+	}
+
+	body { 
+		font-size: 13px; 
+	}
+}
+
+@media screen and (max-width: 740px) 	{
+	h1 { font-size: 30px; padding: 1px; }
+	.left-col { width: 100%; }
+	.sidebar { width: 100%; }
+
+}
+
+@media screen and (max-width: 480px) {
+#logo {
+    float:none;
+}
+nav.fixed div {
+	margin-left:40px;
+}
+
+nav.default {
+	margin-left: 20px;
+	margin-top: 0px
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	line-height: 40px;
+}
+.left-col {
+	padding-right: 0px;
+}
+
+aside.sidebar {
+    padding-right: 0px;
+}
+footer {
+	min-height: 100px;
+}
+
+#featured {
+	height: 150px;
+	margin-bottom: 0px;
+}
+
+nav:last-child a {
+    margin-right: 0px;
+}
+
+div.copy-right {
+	float: left;
+}
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+
+
+

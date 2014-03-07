@@ -1,0 +1,335 @@
+/*   
+Theme Name: SKRealty
+Theme URI: http://digwp.com
+Description: This is a custom theme created for SK Realty Mangement
+Author: David Hanaford
+Author URI: http://davidhanaford.com
+*/
+
+@import "/css/media-queries.css";
+
+::-moz-selection { 
+    background-color: #279558; 
+    color: #fff; 
+    }
+::selection { 
+    background-color: #279558; 
+    color: #fff; }
+
+a { 
+    outline: 0; 
+    color: #279558;
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: underline;
+    color:#279558;
+}
+
+p a:hover { 
+    color: #279558; 
+}
+
+a:active { 
+    outline: none; 
+    position: relative; 
+    top: 2px; 
+}
+
+.clearfix { 
+    clear: both; 
+}
+
+/*------------------------------------*\
+  MAIN
+\*------------------------------------*/
+
+body { 
+    background: #F9F9F9; 
+    color: #666; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in; 
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#logo {
+    float:left;
+}
+
+#wrapper { 
+    margin: 10px auto; 
+    max-width: 980px; 
+    width: 90%; 
+    background: #fff; 
+    padding: 15px;
+}
+
+
+header { 
+    padding: 3px; 
+}
+
+h1 { 
+    font-size: 40px; 
+    font-family: 'Lato', sans-serif;
+    line-height: 75px; 
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in;  
+}
+
+h1 a:hover { 
+    text-decoration: none; 
+    color: #27B3CF; 
+}
+
+h2 { 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    font-size: 24px; 
+    padding: 10px 0px 0px 0px; 
+    margin: 0;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in;
+}
+
+h3 { 
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 30px; 
+}
+
+h4 { 
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+    padding: 3px; 
+    margin: 5px 0 0 0; 
+}
+
+
+nav { 
+    padding: 0; 
+    margin: 0px 0 10px 0;
+    min-width: 299px;
+}
+
+nav a { 
+    display: block; 
+    float: left; 
+    padding: 10px;
+    margin-right: 10px;
+    color: #666;
+}
+
+nav:last-child a {
+    margin-right: 3px;
+}
+
+div.copy-right {
+    float: right;
+    padding-right: 5px;
+}
+
+footer nav:first-child a {
+    padding-left: 0px;
+}
+
+footer nav a {
+    padding-top: 0px;
+}
+
+nav.default {
+    padding: 0; 
+    margin: 30px 0 10px 0;
+    margin-left: 70%;
+}
+
+
+.active {
+    background-color: #279558;
+    color: #fff !important;
+}
+
+nav.fixed {
+    position: fixed;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 20px #222;
+    -webkit-box-shadow: 0 0 20px #222;
+    -moz-box-shadow: 0 0 40px #222;
+    background-color: #323232;
+}
+
+nav.fixed a {
+    color: #666;
+
+}
+
+nav.fixed div {
+    margin-left: 39%;
+}
+
+nav a:hover { 
+    text-decoration: none;
+     -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+}
+
+nav a:active{ 
+    position: relative; 
+    top: 0; 
+}
+
+.left-col { 
+    width: 70%;
+    float: left; 
+}
+
+.third-col {
+    float: left;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.sidebar { 
+    width: 20%; 
+    float: right; 
+    margin-bottom: 10px; 
+    -webkit-transition-property: width;
+    -moz-transition-property: width;
+    transition-property: width;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in;
+    padding-right: 15px;
+}
+
+
+#about { 
+    padding: 20px; 
+}
+
+p { 
+    padding: 0 5px 0 5px;
+}
+
+ul { 
+    list-style: none; 
+}
+
+
+
+
+footer { 
+    padding: 5px;
+    background-color: #323232;
+    color:#279558;
+    min-height: 60px;
+    position: relative;
+
+}
+
+footer div.wrap {
+    margin: 0px auto; 
+    max-width: 980px; 
+    width: 90%;
+    padding: 0px 0px 40px 0px;
+}
+
+pre { 
+    overflow: scroll; 
+    font-size: 10px; 
+}
+
+
+#featured {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+aside {
+    padding-top: 25px;
+}
+
+.left-col {
+    border-right: 1px solid #e2e2e2;
+    padding-right: 50px
+}
+
+hr {
+    border: 1px solid #279558;
+}
+
+ul, menu, dir {
+	-webkit-padding-start: 0px;
+
+}
+
+input {
+    height: 25px;
+    border-color: 1px solid #ccc;
+}
+
+input#contactname, input#contactemail {
+width: 40%;
+
+}
+
+input[type="submit"] {
+    width: 130px;
+    height: 30px;
+    background-color: #279558;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+}
+
+input#submit:focus {
+outline: 0;
+}
+
+textarea {
+    width: 70%;
+}
