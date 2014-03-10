@@ -34,5 +34,21 @@
                 )
             );
     }
+//increases custom field option list size to 120
+    function increase_postmeta_form_limit() {
+        return 120;
+        }
+        add_filter('postmeta_form_limit', 'increase_postmeta_form_limit');
+
+   
+
+function display_propertydetails() {
+    ob_start();
+    get_template_part('property_details');
+    return ob_get_clean();   
+} 
+add_shortcode( 'property_details', 'display_propertydetails' );
+
+
 
 ?>

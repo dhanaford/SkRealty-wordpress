@@ -335,3 +335,33 @@ outline: 0;
 textarea {
     width: 70%;
 }
+
+.butter {
+    display: none;
+}
+
+table#property-details {
+    padding: 10px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table#property-details td {
+    padding-right: 10px;
+    padding: 5px;
+}
+
+table#property-details tr td {
+        border-bottom: 1px solid #e2e2e2;
+
+}
+
+table#property-details tr td.prop-title {
+    text-align: right;
+}
+
+table#property-details tr td.prop-info {
+     border-left: 1px solid #e2e2e2;
+
+}

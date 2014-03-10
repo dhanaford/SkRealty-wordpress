@@ -20,7 +20,7 @@
 
 				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
 
-			</div>
+			</div><!--end entry-->
 
 			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
